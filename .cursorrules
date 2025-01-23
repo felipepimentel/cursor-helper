@@ -1,0 +1,33 @@
+{
+    "rules": [
+        {
+            "name": "Project Structure",
+            "description": "Define basic project structure and file organization",
+            "patterns": [
+                "README.md",
+                "tasks.md",
+                "src/**/*",
+                "tests/**/*"
+            ]
+        },
+        {
+            "name": "Tasks Management",
+            "description": "Rules for managing tasks.md",
+            "patterns": ["tasks.md"],
+            "guidelines": [
+                "Keep tasks organized by priority (High/Medium/Low)",
+                "Mark tasks with status: TODO, IN_PROGRESS, DONE",
+                "Add completion date for finished tasks",
+                "Review and update tasks weekly",
+                "Include task categories: Feature, Bug, Enhancement, Documentation"
+            ]
+        }
+    ],
+    "ignore": [
+        "**/*.pyc",
+        "**/__pycache__",
+        ".git",
+        "node_modules",
+        ".env"
+    ]
+} 

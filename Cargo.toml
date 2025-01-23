@@ -1,0 +1,17 @@
+[package]
+name = "cursor-helper"
+version = "0.1.0"
+edition = "2021"
+description = "A CLI tool to manage Cursor IDE workspace and settings"
+authors = ["Your Name <your.email@example.com>"]
+
+[dependencies]
+clap = { version = "4.4.12", features = ["derive"] }
+colored = "2.1.0"
+dirs = "5.0.1"
+rusqlite = { version = "0.30.0", features = ["bundled"] }
+serde = { version = "1.0.195", features = ["derive"] }
+serde_json = "1.0.111"
+chrono = { version = "0.4.31", features = ["serde"] }
+anyhow = "1.0"
+thiserror = "1.0"
